@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+          "gtm.start": new Date().getTime(),
+          event: "gtm.js",
+        });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-TZ9BX6");
+    </script>
+    <!-- End Google Tag Manager -->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kupimy Fakture</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon.png" />
+    <link type="text/css" rel="stylesheet" href="./css/reset.css" />
+    <link type="text/css" rel="stylesheet" href="./css/style.css" />
+    <script type="text/javascript">
+      WebFont.load({
+        google: {
+          families: [
+            "Helvetica:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic",
+          ],
+        },
+      });
+    </script>
+    <!-- LINK PARAMETER -->
+    <script>
+      var CLP = "CAMINO_LINK_PARAMETER";
+    </script>
+    <!-- / LINK PARAMETER -->
+
+    <!-- included: jQuery.js -->
+    <!-- CAMINO_LP_TRACKER -->
+  </head>
+
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-TZ9BX6"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <!-- Belka górna -->
+    <header class="top-bar">
+      <div class="container">
+        <img
+          src="./images/standard-transparent.svg"
+          alt="Logo"
+          class="logo-kf"
+        />
+        <img
+          src="./images/Logo Kaczmarski Group.svg"
+          alt="Logo"
+          class="logo-kg"
+        />
+      </div>
+    </header>
+    <div class="top-bar-separator"></div>
+    <section class="header-section">
+      <div class="background-container">
+        <div class="background-img"></div>
+        <div class="header-section-column">
+          <div class="title-flag-container">
+            <h1 class="flag-title">Niech wpada na konto</h1>
+            <p class="flag-text">
+              Klient znów nie zapłacił? <br />To już nie musi być Twój problem.
+            </p>
+            <p class="red-text">Wyceń za darmo swoje faktury!</p>
+          </div>
+          <form
+            method="post"
+            action="CAMINO_ACTION"
+            enctype="multipart/form-data"
+            class="form"
+            id="form"
+            novalidate
+          >
+            <input name="GCLID" type="hidden" class="js-form-gclid" />
+            <h3 class="form-header">Dane twojego klienta:</h3>
+
+            <div class="form-container">
+              <div class="inputs-container">
+                <span class="nip-error hide">Podaj poprawny NIP</span>
+                <div class="input-wrapper">
+                  <label for="nip" class="input-label">NIP Klienta</label>
+                  <input
+                    type="text"
+                    name="nip"
+                    required
+                    maxlength="10"
+                    class="nip-input"
+                  />
+                </div>
+                <span class="phone-error hide">Podaj poprawny numer</span>
+
+                <div class="input-wrapper">
+                  <label for="phone" class="input-label"
+                    >Nr telefonu Klienta</label
+                  >
+                  <input
+                    type="tel"
+                    name="phone"
+                    required
+                    maxlength="16"
+                    class="phone-input"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="third-row">
+              <span class="name-error hide"
+                >Podaj poprawne imię i nazwisko</span
+              >
+              <div class="name-input-container">
+                <label for="firstname" class="input-label"
+                  >Imię i Nazwisko osoby kontaktowej</label
+                >
+                <input
+                  type="text"
+                  name="firstname"
+                  id="firstname-frm"
+                  required
+                  maxlength="100"
+                  class="name-input"
+                />
+              </div>
+              <input
+                type="hidden"
+                name="lastname"
+                id="lastname-frm"
+                value="-"
+              />
+              <div class="submit-btn-wrapper">
+                <button type="submit" class="submit-btn">
+                  Wyślij zgłoszenie
+                </button>
+              </div>
+            </div>
+
+            <div class="legal-note-container">
+              <p class="legal-note">
+                Podane przez Państwa dane będą przetwarzane w celu
+                przedstawienia Państwu oferty podmiotów z Grupy Kaczmarski
+                (kaczmarskigroup.pl/grupa).
+                <span class="expanded">
+                  Podane przez Państwa dane będą przetwarzane w celu
+                  przedstawienia Państwu oferty podmiotów z Grupy Kaczmarski
+                  (kaczmarskigroup.pl/grupa). Podane przez Państwa dane będą
+                  przetwarzane w celu przedstawienia Państwu oferty podmiotów z
+                  Grupy Kaczmarski (kaczmarskigroup.pl/grupa). Administratorami
+                  Państwa danych są współadministratorzy: Krajowy Rejestr Długów
+                  Biuro Informacji Gospodarczej S.A., Kaczmarski Group sp. j.
+                  Kaczmarski Inkasso sp. j., Narodowy Fundusz Gwarancyjny S.A. z
+                  siedzibami we Wrocławiu i adresem: ul. Danuty Siedzikówny 12,
+                  51-214 Wrocław (dane kontaktowe do inspektora ochrony danych:
+                  iod@kaczmarskigroup.pl). Podstawą prawną przetwarzania danych
+                  jest realizacja uzasadnionego interesu współadministratorów,
+                  tj.: promowanie produktów i usług współadministratorów,
+                  prowadzenie analiz i analiz statystycznych. Dane osobowe będą
+                  przetwarzane dopóki, dopóty nie zostanie zgłoszony sprzeciw
+                  wobec ich przetwarzania, a w razie zgłoszenia sprzeciwu –
+                  przez okres przedawnienia roszczeń, jakie wobec
+                  współadministratorów mogą przysługiwać osobie, której dane
+                  dotyczą. Dane mogą być przekazywane podmiotom z Grupy
+                  Kaczmarski (kaczmarskigroup.pl/grupa), podmiotom zapewniającym
+                  obsługę teleinformatyczną i organizacyjną, sądom, organom
+                  ścigania, podmiotom świadczącym usługi doradcze oraz pomoc
+                  prawną, oraz innym podmiotom wskazanym w przepisach
+                  powszechnie obowiązującego prawa. Informujemy, że mają Państwo
+                  prawo dostępu do swoich danych oraz możliwość ich poprawiania.
+                  Przysługuje Państwu także prawo do usunięcia danych, prawo do
+                  ograniczenia lub żądania zaprzestania przetwarzania danych,
+                  prawo sprzeciwu wobec przetwarzania i udostępniania ich innym
+                  podmiotom oraz prawo wniesienia skargi do organu nadzorczego.
+                </span>
+                <button type="button" class="toggle-btn">Rozwiń</button>
+              </p>
+            </div>
+            <span style="display: none">CAMINO_TOKEN</span>
+          </form>
+        </div>
+      </div>
+      <div class="text-container">
+        <div class="mockup">&nbsp;</div>
+        <p class="under-header-text">
+          <span class="under-header-text-title"
+            ><strong>Kiedy warto skorzystać </strong><br />z
+            KupimyFakture.pl?</span
+          >
+          <br /><br />Skup faktur to rozwiązanie,<br />które warto rozważyć, gdy
+          kontrahent nie opłacił faktury za towar lub usługę,<br />a Ty
+          potrzebujesz szybko odzyskać część należnych środków.
+        </p>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <img
+          src="./images/white-KF-logo.png"
+          alt="kupimyFkature.pl logo"
+          class="footer-logo"
+        />
+        <address class="footer-text">
+          <p>
+            KUPIMYFAKTURE.pl jest usługą świadczoną przez Kaczmarski Group sp.
+            j., ul. Danuty Siedzikówny 12, 51-214 Wrocław. Spółka zarejestrowana
+            w Sądzie Rejonowym dla Wrocławia-Fabrycznej, VI Wydział Gospodarczy;
+            KRS: 0000880153; NIP: 8952053350; Wkłady wspólników 50 000 000 zł.
+          </p>
+        </address>
+      </div>
+    </footer>
+
+    <script type="text/javascript" src="./js/script.js"></script>
+    <script type="text/javascript" src="./js/validation.js"></script>
+    <script
+      type="text/javascript"
+      src="https://zgloszenie.krd.pl/landing-pages/937/js/script.js"
+    ></script>
+  </body>
+</html>
