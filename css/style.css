@@ -110,7 +110,7 @@
 }
 
 .under-header-text-title {
-  font-size: 22px;
+  font-size: 24px;
 }
 
 /* FORM */
@@ -302,6 +302,117 @@
   height: 200px;
   width: 100%;
   background-color: #c9e9ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.benefits-section-header {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+/* PRICE SECTION */
+
+.price-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f8f8f8;
+  padding: 50px 20px;
+}
+
+.price-section-header {
+  margin-bottom: 50px;
+}
+
+.tiles-container {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tile-header {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.tile {
+  background-color: #ffffff;
+  -webkit-box-shadow: 2px 2px 20px #00000017;
+  -moz-box-shadow: 2px 2px 20px #00000017;
+  box-shadow: 2px 2px 20px #00000017;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 320px;
+}
+
+.value-container {
+  margin-bottom: 5px;
+}
+.value-container,
+.red-value-container {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  white-space: nowrap;
+  padding: 0 5px;
+}
+
+.red-value-container {
+  background-color: #fef5f6;
+}
+
+.value-title,
+.red-value-title,
+.red-value,
+.value {
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.value,
+.red-value {
+  font-weight: 800;
+}
+
+.red-value,
+.red-value-title {
+  color: #e61732;
+}
+
+.tile-separator {
+  margin-top: 15px;
+}
+
+.bottom-text {
+  width: 100%;
+  font-size: 14px;
+}
+
+.cost-tag-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cost-tag-value {
+  color: #0db319;
+  font-weight: 800;
+}
+
+.cost-tag {
+  width: 50px;
 }
 
 /* FOOTER  */
