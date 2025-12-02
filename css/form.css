@@ -1,0 +1,211 @@
+.msg_input{
+      border: 1px solid #ddd;
+      min-height: 35px;
+      margin-top: 5px;
+      margin-bottom: 10px;
+      border-radius: 0px;
+      padding: 5px 10px;
+      width: 100%;
+    }
+  
+    .msg_submit{
+      border: 1px solid #ddd;
+      min-height: 35px;
+      background-color: #1283FF;
+      color: #fff;
+      border-radius: 5px;
+      cursor: pointer;
+      width: 100%;
+    }
+  
+    .msg_submit:hover{
+      border: 1px solid #ddd;
+      min-height: 35px;
+      background-color: #0063cd;
+      color: #fff;
+      border-radius: 5px;
+    }
+  
+  
+    .valid-error {
+        background-color: #fff4f7;
+        border-color: #ea1f69;
+    }
+    .valid-ok {
+        background-color: #f6fbf7;
+        border-color: #3bb64a;
+    }
+    .txt-error {
+        color: #ea1f69;
+        font-size: 12px;
+        font-family: 'Ubuntu', 'FontAwesome', sans-serif;
+        margin-top: 3px;
+        margin-bottom: 3px;
+    }
+  
+    .lnk-zamknij {
+        color: #121212;
+        font-weight: bold;
+        text-decoration: none;
+        padding: 5px 10px;
+        background-color: #ddd;
+        border-radius: 5px;
+    }
+    .lnk-zamknij:hover {
+        color: #121212;
+        background-color: #ccc;
+    }
+  
+  
+    #msg_box{
+      display: block;
+      position: absolute;
+      position: fixed;
+      bottom: 0px;
+      z-index: 9999999;
+      margin: 10px;
+    }
+  
+    .msg_notification {
+        font-family: sans-serif;
+        background-color: #fff;
+        max-width: 400px;
+        font-size: 10px;
+        font-weight: normal;
+        color: #101924;
+        line-height: 14px;
+        opacity: 0.99;
+        padding: 5px;
+        border-radius: 10px;
+        margin-top: 10px;
+
+        border: 1px solid #f3edfd;
+
+        -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.05); 
+        box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.05);
+    }
+  
+    .msg_inner {
+      text-align: left;
+      padding: 10px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .msg_hide{
+      display: none;
+    }
+  
+    .msg_btn{
+      margin-top: 15px;
+    }
+  
+    .msg_avatar{
+      border-radius: 10%;
+      margin-right: 10px;
+  
+      width: 80px;
+      height: 80px;
+      max-height: 80px;
+      max-width: 80px;
+      min-height: 80px;
+      min-width: 80px;
+    }
+  
+    @media only screen and (max-width: 300px) {
+      .msg_avatar {
+        display: none;
+      }
+    }
+  
+    .msg_flex{
+      display: flex;
+      flex-wrap: nowrap;
+      margin: 15px;
+    }
+  
+    .msg_thx{
+      display: none;
+      flex-wrap: nowrap;
+      margin: 15px;
+    }
+  
+    .msg_th{
+      font-size: 16px;
+      line-height: 18px;
+      font-weight:500;
+      margin-bottom: 10px;
+      color: #8654e2;
+    }
+
+    .msg_big_txt{
+      font-size: 40px;
+      line-height: 45px;
+      font-weight:500;
+      margin-bottom: 10px;
+      color: #8654e2;
+    }
+  
+    .msg_txt{
+      font-size: 13px;
+      font-weight: normal;
+      line-height: 18px;
+      color: #8d929c;
+    }
+  
+    .disclaimer-lnk{
+      cursor: pointer;
+    }
+  
+    .label{
+        font-family: 'Ubuntu', 'FontAwesome', sans-serif;
+        font-size: 10px;
+        margin: 15px 0px 3px 12px;
+        color: #666;
+        text-transform: uppercase;
+    }
+
+    .msg_btn_margin_r{
+        margin-right: 5px;
+    }
+
+    .msg_btn_margin_l{
+        margin-left: 5px;
+    }
+
+    .msg-timer{
+      padding: 20px 10px 12px 10px;
+      width: 100%;
+      font-size: 30px;
+      border: 1px solid #f3edfd;
+      border-radius: 5px;
+      color: #8654e2;
+      text-align: center;
+      font-weight: normal;
+    }
+    
+    .msg-timer-txt{
+      font-size: 10px;
+      color: #8d929c;
+      margin-top: 15px;
+    }
+
+    .msg-text-field{
+      border: 1px solid #f3edfd;
+      width: 100%;
+      min-height: 40px;
+      border-radius: 5px;
+      padding: 5px 10px;
+    }
+
+    .bold{
+      font-weight: bold;
+    }
+
+    .msg_flex ol{
+      padding: 5px 0px 0px 15px;
+    }
+
+    .center{
+        text-align: center;
+    }
